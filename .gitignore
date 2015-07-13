@@ -1,0 +1,9 @@
+/vendor
+/node_modules
+Homestead.yaml
+.env
+/.idea
+storage
+composer.phar
+composer.lock
+config/local/mail.php
