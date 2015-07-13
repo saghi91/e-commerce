@@ -12,6 +12,6 @@
 */
 
 Route::get('/admin', [
-    'uses' => 'AdminPanel@index',
+    'uses' => 'AdminPanelController@index',
     'as'   => 'admin_panel_index'
 ]);
