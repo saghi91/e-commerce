@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/admin', [
+    'uses' => 'AdminPanel@index',
+    'as'   => 'admin_panel_index'
+]);
